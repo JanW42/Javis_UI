@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+  }
+  
+  /* Canvas exakt oben und zentriert */
+  #ai-canvas {
+    position: absolute;
+    top: -250px;                 /* wie weit oben*/
+    left: 50%;              /* horizontal mittig */
+    transform: translateX(-50%);  /* exakt mittig zentrieren */
+    width: 800px;           /* oder 100% / responsive */
+    height: 400px;          /* je nach gewünschter Höhe */
+    display: block;
+    z-index: 1;
+  }
+  
